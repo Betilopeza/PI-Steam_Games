@@ -4,7 +4,7 @@
 
 - Proyecto realizado en el marco de la carrera de Data Science de SoyHenry. <br>
 - En el siguiente proyecto de Machine Learning Operations se realiza un procedimiento completo desde el tratamiento y recolección de los datos hasta el entrenamiento y mantenimiento del modelo de ML como si fueramos Data Scientists de Steam.
-- El proyecto en su totalidad puede encontrar en [Github del proyecto](https://github.com/Betilopeza/PI-Steam-Games)
+- El proyecto en su totalidad puede encontrar en [Github del proyecto](https://github.com/Betilopeza/PI-Steam_Games)
 
 <br>
 
@@ -147,7 +147,7 @@ El archivo correspondiente al código para el sistema de recomendación en el si
 
 ## ENLACES DE INTERÉS
 
-Enlace al [Github del proyecto](https://github.com/Betilopeza/PI-Steam-Games)
+Enlace al [Github del proyecto](https://github.com/Betilopeza/PI-Steam_Games)
 <br>
 Enlace al [Web Service de Render](https://betiana-lopez-andueza-pi-steam-games.onrender.com/docs)
 <br>
