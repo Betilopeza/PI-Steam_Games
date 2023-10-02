@@ -63,7 +63,7 @@ El procedimiento de ETL siguió los siguientes pasos:<br>
 - Cuando fue posible, se utilizaron los URL para completar alguna información faltante, sobre todo en la parte de los juegos. Por ejemplo: ids faltantes o títulos de juegos faltantes.
 - Cuando fue necesario se modificaron tipos de datos a enteros, a datetime, entre otros.
 - Se realizó un análisis de sentimiento NLP (Procesamiento de Lenguaje Natural) en el archivo correspondiente al ETL de las reviews, donde se analizaron las reviews de los usuarios para clasificar los comentarios como positivos, neutros o negativos.
-- En el modelo de Machine Learning, se crearon dummies de valores binarios para optimizar la carga de las consultas. Se tuvieron en cuenta algunos criterios que permitieron simplificar los datos y optimizar la consulta en la API: se consideraron los top 100 juegos más jugados y los géneros con más items.<br><br>
+<br><br>
 
 <br>
 
@@ -117,7 +117,7 @@ Se ingresa el id del juego, debe devolver una lista con 5 juegos recomendados si
 ## SISTEMA DE RECOMENDACIÓN
 
 - Se procede a preparar un sistema de recomendación basándonos en la similitud del coseno. 
-- Se arma una matriz donde las filas son los títulos de los juegos (también se presentan los id, ya que ingresamos el id del juego) y en las columnas podemos observar los géneros.
+- Se arma una matriz donde las filas son los títulos de los juegos (también se presentan los id, ya que ingresamos el id del juego) y en las columnas podemos observar los géneros y se completa con variables dummies.
 - Pensando en la optimización de la función en la API, se tuvieron en cuenta algunos criterios que permitieron simplificar los datos y optimizar la consulta en la API: se consideraron los top 100 juegos más jugados y los géneros con más items.
 - Una vez con el dataset listo, y utilizando la libreria **Scikit-learn** se procedió a utilizar un algoritmo de cosine similarity y obtener los resultados. 
 Esto se puede ver en la API en el último endpoint
