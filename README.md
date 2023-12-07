@@ -151,6 +151,6 @@ Enlace al [Github del proyecto](https://github.com/Betilopeza/PI-Steam_Games)
 <br>
 Enlace al [Web Service de Render](https://betiana-lopez-andueza-steam-games.onrender.com/)
 <br>
-Enlace al [Video de presentación del proyecto]([https://drive.google.com/drive/folders/1faBm09wDSvC80MJg2WhCg40QFohnY4PC?usp=drive_link](https://drive.google.com/file/d/1BUeYY8pSn5CtOmQyk-0Qn5myBHxTiBWL/view?usp=sharing)https://drive.google.com/file/d/1BUeYY8pSn5CtOmQyk-0Qn5myBHxTiBWL/view?usp=sharing)
+Enlace al [Video de presentación del proyecto](https://drive.google.com/file/d/1BUeYY8pSn5CtOmQyk-0Qn5myBHxTiBWL/view?usp=drive_link)
 
 
